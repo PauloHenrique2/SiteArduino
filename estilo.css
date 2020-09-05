@@ -1,5 +1,6 @@
 h1 {
     color:white;
+ master
 }
 body {                
     font-family: 'Alata', sans-serif;
@@ -8,4 +9,6 @@ body {
 }
 img {
     float: right;
-}
+    background-color: black
+}        
+    gh-pages
