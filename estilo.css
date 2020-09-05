@@ -1,11 +1,11 @@
 h1 {
     color:white;
-    background-color:green;
 }
-body {
-    background-image:url('./imagens/fundo.jpg') ;                
+body {                
     font-family: 'Alata', sans-serif;
     color: white;
     background-color: black;
-
+}
+img {
+    float: right;
 }
