@@ -1,6 +1,23 @@
 h1 {
     color:white;
+    text-align: center;
+    padding-top: 5px;
+    animation: Titulo 2s ease;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
+
+@keyframes Titulo {
+    0%{letter-spacing: 5px;}
+    100%{letter-spacing: 10px;}   
+}
+
+
+h3 {
+    text-align: center;
+    padding-top: 5px;
+}
+
 body {                
     font-family: 'Alata', sans-serif;
     color: white;
@@ -8,4 +25,10 @@ body {
 }
 img {
     float: right;
+    height:150px;
+}
+
+#video {
+    border-radius: 15px;
+    margin-left: 10px;
 }
