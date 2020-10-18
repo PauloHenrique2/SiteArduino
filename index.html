@@ -3,19 +3,25 @@
     <head>
         <meta charset="utf-8"/>             
         <title>PH INFO</title>
-        <link rel="icon" href="images.png" type="image/png"/>
+        <link rel="icon" href="imagens/images.png" type="image/png"/>
         <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="estilo.css">           
     </head>
     <body>
         <header>    
             <h1>Arduino</h1>
-            <h3>Aqui tem tudo sobre arduino!</h3>                
+            <h3>Aqui tem tudo sobre arduino!</h3>
+            <nav>
+                <ul>
+                    <li><a href="#intro">Introdução</a></li>
+                    <li><a href="#comp">Componentes</a></li>
+                </ul>
+            </nav>                
             <hr>
         </header>
 
         <main> 
-            <h2>O que é o Arduino?</h2>
+            <h2 id="intro">O que é o Arduino?</h2>
             <p>O Arduino foi criado em 2005 por um grupo de 5 pesquisadores : Massimo Banzi, David Cuartielles, Tom Igoe, Gianluca Martino e David Mellis. O objetivo era elaborar um dispositivo que fosse ao mesmo tempo barato, funcional e fácil de programar, sendo dessa forma acessível a estudantes e projetistas amadores. Além disso, foi adotado o conceito de hardware livre, o que significa que qualquer um pode montar, modificar, melhorar e personalizar o Arduino, partindo do mesmo hardware básico.</p>
             <br>
             <h2>O que posso fazer com o arduino?</h2>
@@ -23,9 +29,24 @@
             <br>
             <h2>Mas, como ele faz isso tudo?</h2>
             <p>Para isso, o Arduino possui uma quantidade enorme de sensores e componentes que você pode utilizar nos seus projetos. Grande parte do material utilizado está disponível em módulos, que são pequenas placas que contém os sensores e outros componentes auxiliares como resistores, capacitores e leds.</p>
-            <br>                                    
+            <h2>Como o Arduino funciona?</h2>
+            <p>Como já dito, os Arduinos possuem funcionamento semelhante ao de um pequeno computador capaz de interpretar entradas e controlar as saídas afim de criar sistemas automáticos. Para isso, você precisa programa-lo.
+                <br>
+                Programação nada mais é que falar ao controlador quais decisões devem ser tomadas em cada circunstancia. Para isso, escrevemos um código que segue uma sequência logica de tomada de decisões que leva em conta as vareáveis que serão lidas e/ou controladas.               Para programar essas placas, ou seja, ensiná-las a desempenharem a as funcionalidades que você deseja, basta utilizarmos a sua IDE (ambiente integrado de desenvolvimento), que por sua vez, é um software onde podemos escrever um código em uma linguagem semelhante a C/C++, o qual, será traduzido, após a compilação, em um código compreensível pela nossa placa.</p>
+            <h2>Quais os modelos mais famosos de placas Arduino?</h2>
+            <p>
+                Existem diversas modelos de placas Arduino, mas a mais popular é o Arduino Uno e será ela que iremos usar como referência nessa apostila, além dela, temos outras placas muito usadas, tais como o Arduino Mega, Arduino Nano e  o Arduino Micro.
+                Apesar de diferentes modelos, os projetos que programamos em um modelo pode ser facilmente adaptado para outro. Só fique atento para as particularidades de sua Placa.</p>
+            <img src="./imagens/Placas Arduino.png">
+            <br>
+            <hr>
+            <h2 id="comp">Componentes do Arduino Uno</h2>
+            <p>Microcontrolador:
+            Esse é o cérebro do Arduino. Um computador inteiro dentro de um pequeno chip. Este é o dispositivo programável que roda o código que enviamos à placa.</p>
+            <br>
+            <br>                                 
+            <br>
             <p>-Veja aqui um vídeo para aprender mais sobre o arduino!</p>
-            <img src="arduino.jpg">
             <section>
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/oOWuq_Nazig" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="video"></iframe>
             </section>
@@ -37,4 +58,3 @@
         </footer>
     </body>
 </html>
-
