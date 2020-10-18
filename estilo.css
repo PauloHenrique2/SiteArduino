@@ -24,11 +24,35 @@ body {
     background-color: black;
 }
 img {
-    float: right;
-    height:150px;
+    height:300px;
 }
 
 #video {
     border-radius: 15px;
     margin-left: 10px;
+}
+
+ul {
+    list-style: none;
+    font-size: 20px;
+    display: flex;
+    width: 100%;
+    padding:0;
+    box-sizing: border-box;
+    justify-content: space-around;
+}
+
+nav ul li a:hover {
+    cursor: pointer;
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+nav ul li a:link {
+    color:white;
+    border-bottom: 1px solid white;
+}
+
+nav ul li a:visited {
+    color: gray;
 }
