@@ -56,3 +56,50 @@ nav ul li a:link {
 nav ul li a:visited {
     color: gray;
 }
+
+#botao{
+    background-color:white;
+    color: black;
+}
+
+#botao:hover{
+    background-color:black;
+    color: white;
+    cursor: pointer;
+}
+
+#nome:focus{
+    background-color: black;
+    color: white;
+}
+
+#idade:focus{
+    background-color: black;
+    color: white;
+}
+
+#num1:focus{
+    background-color: black;
+    color: white;
+}
+
+#num2:focus{
+    background-color: black;
+    color: white;
+}
+
+#op:focus{
+    background-color: black;
+    color: white;
+}
+
+#botao2{
+    background-color:white;
+    color: black;
+}
+
+#botao2:hover{
+    background-color:black;
+    color: white;
+    cursor: pointer;
+}
